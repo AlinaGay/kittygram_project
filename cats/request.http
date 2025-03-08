@@ -1,0 +1,34 @@
+GET http://127.0.0.1:8000/cats/
+
+###
+
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+    "name": "Pushok",
+    "color": "white",
+    "birth_year": 2019
+}
+
+###
+
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+    "name": "Kesha",
+    "color": "black",
+    "birth_year": 2015
+}
+
+###
+
+DELETE http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+    "name": "Kesha",
+    "color": "black",
+    "birth_year": 2015
+}
