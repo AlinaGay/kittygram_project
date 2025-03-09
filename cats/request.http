@@ -32,3 +32,12 @@ Content-Type: application/json
     "color": "black",
     "birth_year": 2015
 }
+
+###
+
+PATCH  http://127.0.0.1:8000/cats/1/
+Content-Type: application/json
+
+{
+    "color": "orange"
+}
